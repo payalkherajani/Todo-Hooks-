@@ -6,7 +6,7 @@ import style from './style.module.css';
 
 const Login = () => {
 
-  const history = useHistory()
+const history = useHistory()
 
 
 //Defining States
@@ -29,13 +29,10 @@ const tokengen = () => {
     history.push("/dashboard")
 }
     return (
+      <div className={style.division}>
         <div className={style.Loginmaindiv}>
         <form className={style.formdiv}>
-          <div className={style.containerlogin}>
-            <div className={style.headingcontainer}>
-              <h1 className={style.headinglogin}>login</h1>
-            </div>
-            
+          <div className={style.containerlogin}>  
             <div className={style.forminput}>
               <input
               className={style.inputlogin}
@@ -75,6 +72,17 @@ const tokengen = () => {
             </div>
           </div>
         </form>
+        </div>
+        <div className={style.parttwo}>
+        <div className={style.vertical}>
+        <div>
+        <i class="fas fa-people-carry" ></i>
+        <h3  className={style.heading}>Together we can do more!</h3>
+        </div>
+        </div>
+       
+        </div>
+      
         </div>
       );
 }

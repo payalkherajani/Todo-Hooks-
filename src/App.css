@@ -15,6 +15,5 @@ button {
   font-family: "Roboto", sans-serif !important;
 }
 ::-webkit-input-placeholder {
-  font-style: italic;
-  color: #dcdcdc;
+  color: #979797;
 }

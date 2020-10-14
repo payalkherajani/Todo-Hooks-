@@ -1,40 +1,53 @@
-/* Login-Form and Register-Form */
+/* Login-Form  */
+.division {
+  display: flex;
+  gap: 10px;
+}
+.parttwo {
+  flex-basis: 50%;
+}
+.vertical {
+  border-left: 1px solid #d2d2d2;
+  margin-top: 2rem;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: rgb(220, 0, 78);
+}
 .Loginmaindiv {
+  flex-basis: 50%;
+  float: left;
   width: 80%;
-  margin: 2rem auto 1rem auto;
-  padding: 3rem;
-  height: 550px;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  margin: 5rem auto 1rem auto;
+  padding: 10px;
+  min-height: 50vh;
 }
 .formdiv {
-  height: 500px;
-  padding: 2rem;
+  min-height: 50vh;
+  padding: 20px;
+  margin-top: 1rem;
 }
 .containerlogin {
   height: 500px;
-}
-.headingcontainer {
-  padding: 20px;
-}
-.headinglogin {
-  color: rgba(175, 47, 47, 0.15);
-  font-size: 80px;
-  font-weight: 900;
-}
-.forminput {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
   padding: 1rem;
-  justify-content: center;
-  align-items: center;
+}
+
+.forminput {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .inputlogin {
   padding: 20px;
   width: 50%;
   outline: none;
-  border-radius: 5px;
-  border: 1px solid #909090;
-  background-color: #f8f8f8;
+  border: none;
+  border-bottom: 1px solid #909090;
   font-size: 20px;
 }
 
@@ -44,13 +57,7 @@
 .loginbutton {
   padding: 20px;
   width: 25%;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-color: #17aca7;
   color: #fff;
   outline: none;
   border-radius: 5px;
@@ -60,13 +67,7 @@
 .loginbuttondisabled {
   padding: 20px;
   width: 25%;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-color: #17aca7;
   color: #fff;
   outline: none;
   border-radius: 5px;
