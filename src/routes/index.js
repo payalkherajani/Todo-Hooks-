@@ -51,10 +51,10 @@ const AppRoutes = () => {
 return(
     <Router>
         <Switch>
-            <Route exact path="/" component={Login} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/register" component={Register} />
-            <Route exact path="/dashboard" component={Todo} />
+            <NonPrivateRoute exact path="/" component={Login} />
+            <NonPrivateRoute exact path="/login" component={Login} />
+            <NonPrivateRoute exact path="/register" component={Register} />
+            <PrivateRoute exact path="/dashboard" component={Todo} />
         </Switch>
     </Router>
 )
