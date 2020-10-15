@@ -80,7 +80,6 @@ const tokengen = () => {
         <h3  className={style.heading}>Together we can do more!</h3>
         </div>
         </div>
-       
         </div>
       
         </div>

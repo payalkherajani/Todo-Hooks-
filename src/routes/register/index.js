@@ -4,12 +4,19 @@ import style from "./style.module.css"
 const Register = () => {
 
   return (
+    <div  className={style.division}>
+      <div className={style.parttwo}>
+        <div className={style.vertical}>
+        <div>
+        <i class="fas fa-people-carry" ></i>
+        <h3  className={style.heading}>Together we can do more!</h3>
+        </div>
+        </div>
+        </div>
+   
     <div className={style.Registermaindiv}>
     <form className={style.formdiv}>
       <div className={style.containerregister}>
-        <div className={style.headingcontainer}>
-          <h1 className={style.headingregister}>register</h1>
-        </div>
 
         <div className={style.forminput}>
           <input className={style.inputregister} type="text" placeholder="Full Name"/>
@@ -29,6 +36,7 @@ const Register = () => {
         </div>
       </div>
     </form>
+    </div>
     </div>
   );
 };
