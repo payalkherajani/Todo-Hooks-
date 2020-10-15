@@ -60,16 +60,25 @@ const [val,setVal] = useState(props.item.task)
               }}
             >
               {props.item.isCompleted === false ? (
-                <i className="fas fa-pen" style={{border:"none",backgroundColor: "#fff"}}></i>
+                <span style={{color: "Dodgerblue",backgroundColor: "#fff"}}>
+                  <i className="fas fa-pen" ></i>
+                </span>
+                
               ) : (
-                <i class="fas fa-pen" style={{opacity: "0.5",pointerEvents: "none"}}></i>  //disabled
+                <span style={{color: "Dodgerblue",backgroundColor: "#fff"}}  >
+                   <i class="fas fa-pen" style={{opacity: "0.5",pointerEvents: "none"}}></i>  
+                </span>
+               
               )}
             </button>
             <button
               aria-label="delete"
               onClick={() => props.deleteTask(props.item.id)}
             >
+              <span style={{color: "Tomato",backgroundColor: "#fff"}}>
               <i className="fas fa-trash-alt"></i>
+              </span>
+              
             </button>
           </div>
         </div>
