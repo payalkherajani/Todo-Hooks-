@@ -34,10 +34,20 @@ _This Todo App is Completely written in React using React Hooks_
 
 ![Login](/src/images/login.png)
 
-![Register](/src/images/register)
+---
+
+![Register](/src/images/register.png)
+
+---
 
 ![All](/src/images/all.png)
 
+---
+
 ![Active](/src/images/active.png)
 
+---
+
 ![Completed](/src/images/completed.png)
+
+---
